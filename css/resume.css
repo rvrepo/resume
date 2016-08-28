@@ -1,6 +1,10 @@
 body{
+	font-family: 'Cormorant Infant', serif;
 	font-size: 16px;
 	margin: 0;
+}
+a{
+	color: inherit;
 }
 #top-head{
 	background-image: url("../images/bgwooden.jpg");
@@ -44,7 +48,7 @@ body{
     border: 1px solid black;
     display: inline-block;
     float: left;
-    flex: 7;
+    flex: 14;
     padding: 15px;
 }
 .mid-col{
@@ -53,9 +57,10 @@ body{
 	flex: 1;
 }
 .right-col{
+	position: relative;
 	display: inline-block;
 	float: left;
-	flex: 2;
+	flex: 5;
 	border: 1px solid black;
 	padding: 15px;
 }
@@ -66,3 +71,26 @@ body{
 	border: 1px solid black;
     border-radius: 80px;
 }
+ .cont-heading{
+ 	font-size: 25px;
+ 	margin: 20px 0;
+ }
+ .cont-detail{
+ 	font-size: 18px;
+ }
+ .rt-con-detail{
+ 	font-size: 22px;
+ 	margin: 10px 0; 
+ }
+ .social{
+ 	position: absolute;
+    bottom: 20px;
+    width: calc(100% - 30px);
+ }
+ .s-icons{
+ 	float: left;
+ 	padding: 0 3px;
+ }
+ .s-icons:last-child{
+ 	float: right;
+ }
